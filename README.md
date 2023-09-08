@@ -17,8 +17,8 @@
   对一个 .ldif 数据文件按照 DN 顺序排序, 生成的文件可正确的导入 ldap
 
 #### 使用
-  下载release中的 ldapsort_linux_x86 二进制文件  
-  chmod +x ldapsort_linux_x86
-  将*.ldif文件重命名成data.ldif,然后和ldapsort_linux_x86放置在同一个目录下
-  执行 ./ldapsort_linux_x86  会生成一个data_sort.ldif文件
-  data_sort.ldif是已排序文件
+  下载release中的 ldapsort_linux_x86 二进制文件    
+  chmod +x ldapsort_linux_x86    
+  将*.ldif文件重命名成data.ldif,然后和ldapsort_linux_x86放置在同一个目录下   
+  执行 ./ldapsort_linux_x86  会生成一个data_sort.ldif文件   
+  data_sort.ldif是已排序文件   
